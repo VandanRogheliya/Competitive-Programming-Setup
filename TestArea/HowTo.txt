@@ -1,0 +1,48 @@
+a.cpp - incorrect solution
+brute.cpp - correct slow solution
+input.txt - sample input
+gen.cpp - test generator
+s.sh - script that tests a.cpp and brute.cpp against each other
+run.sh - compiles a and brute and runs s.sh
+
+gen_tree.cpp - stupid tree generator
+gen_tree2.cpp - better tree generator
+Read about Prufer sequences for even smarter tree generation.
+
+My compilation flags:
+
+1) fast running time
+    g++ -O2 -std=c++17 -Wno-unused-result -Wshadow -Wall -o a a.cpp
+
+2) check for mistakes
+    g++ -std=c++17 -Wshadow -Wall -o a a.cpp -fsanitize=address -fsanitize=undefined -D_GLIBCXX_DEBUG -g
+
+        
+
+
+How to test my code?
+1. Edit gen.cpp to generate random output (type 'test' for default snippet)
+2. Add solution to a.cpp
+3. Add bruteforce solution to brute.cpp
+4. run 'bash run.sh' in terminal
+
+Tips:
+1. Try with smaller tests, more probability to find a bug and easier to comprehand
+2. Tests pass here but fail on the site then check for
+-Overflow
+-size of array
+
+
+Runtime errors:
+Run program with the flags above
+
+Generating Tree:
+For star graph change gen_tree.cpp like this:
+Line 14: printf("%d %d\n", 1, i);
+For line graph:
+Line 14: printf("%d %d\n", i-1, i);
+For BST:
+Line 14: printf("%d %d\n", i/2, i);
+
+Note: gen_tree.cpp will have hight mostly log(n), use gen_tree2.cpp instead.
+

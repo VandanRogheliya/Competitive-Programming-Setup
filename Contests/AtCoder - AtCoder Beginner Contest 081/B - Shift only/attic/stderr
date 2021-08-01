@@ -1,0 +1,5 @@
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/B - Shift only/default.cpp:[m[K In function ‘[01m[Kvoid solve()[m[K’:
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/B - Shift only/default.cpp:77:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmx[m[K’ was not declared in this scope; did you mean ‘[01m[Kmn[m[K’?
+   77 |   cout << [01;31m[Kmx[m[K;
+      |           [01;31m[K^~[m[K
+      |           [32m[Kmn[m[K

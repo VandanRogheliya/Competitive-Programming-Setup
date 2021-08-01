@@ -1,0 +1,21 @@
+{
+  "mainSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #644 (Div. 3)/D. Buying Shovels/sol.cpp"
+  },
+  "bruteSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #644 (Div. 3)/D. Buying Shovels/brute.cpp"
+  },
+  "generator": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #644 (Div. 3)/D. Buying Shovels/gen.py"
+  },
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "D. Buying Shovels",
+      "group": "Codeforces - Codeforces Round #644 (Div. 3)",
+      "url": "https://codeforces.com/contest/1360/problem/D",
+      "memoryLimit": 256,
+      "timeLimit": 2000
+    }
+  }
+}

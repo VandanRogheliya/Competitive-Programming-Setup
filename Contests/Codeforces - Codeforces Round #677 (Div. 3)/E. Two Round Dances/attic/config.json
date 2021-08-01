@@ -1,0 +1,21 @@
+{
+  "mainSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #677 (Div. 3)/E. Two Round Dances/sol.cpp"
+  },
+  "bruteSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #677 (Div. 3)/E. Two Round Dances/brute.cpp"
+  },
+  "generator": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #677 (Div. 3)/E. Two Round Dances/gen.py"
+  },
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "E. Two Round Dances",
+      "group": "Codeforces - Codeforces Round #677 (Div. 3)",
+      "url": "https://codeforces.com/contest/1433/problem/E",
+      "memoryLimit": 256,
+      "timeLimit": 1000
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #644 (Div. 3)/F. Spy-string/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "F. Spy-string",
+      "group": "Codeforces - Codeforces Round #644 (Div. 3)",
+      "url": "https://codeforces.com/contest/1360/problem/F",
+      "memoryLimit": 256,
+      "timeLimit": 2000
+    }
+  }
+}

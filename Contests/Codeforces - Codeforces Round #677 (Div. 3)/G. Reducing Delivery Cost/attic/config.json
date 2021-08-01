@@ -1,0 +1,21 @@
+{
+  "mainSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #677 (Div. 3)/G. Reducing Delivery Cost/sol.cpp"
+  },
+  "bruteSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #677 (Div. 3)/G. Reducing Delivery Cost/brute.cpp"
+  },
+  "generator": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #677 (Div. 3)/G. Reducing Delivery Cost/gen.py"
+  },
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "G. Reducing Delivery Cost",
+      "group": "Codeforces - Codeforces Round #677 (Div. 3)",
+      "url": "https://codeforces.com/problemset/problem/1433/G",
+      "memoryLimit": 256,
+      "timeLimit": 1000
+    }
+  }
+}

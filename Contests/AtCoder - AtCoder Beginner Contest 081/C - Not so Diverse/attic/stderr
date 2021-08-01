@@ -1,0 +1,92 @@
+/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp: In instantiation of ‘[01m[Kvoid __print(const std::pair<_T1, _T2>&) [with T = const long long int; V = std::vector<long long int>][m[K’:
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:37:103:[m[K   required from ‘[01m[Kvoid __print(const T&) [with T = std::map<long long int, std::vector<long long int>, std::greater<long long int> >][m[K’
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:40:35:[m[K   required from ‘[01m[Kvoid _print(T, V ...) [with T = std::map<long long int, std::vector<long long int>, std::greater<long long int> >; V = {}][m[K’
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:102:5:[m[K   required from here
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:35:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[K__print(const std::vector<long long int>&)[m[K’
+   35 | void __print(const pair<T, V>& x) { cerr << '{'; __print(x.first); cerr << ','; [01;31m[K__print(x.second)[m[K; cerr << '}'; }
+      |                                                                                 [01;31m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:20:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(int)[m[K’
+   20 | void [01;36m[K__print[m[K(int x) { cerr << x; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:20:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Kint[m[K’
+   20 | void __print([01;36m[Kint x[m[K) { cerr << x; }
+      |              [01;36m[K~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:21:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(long int)[m[K’
+   21 | void [01;36m[K__print[m[K(long x) { cerr << x; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:21:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Klong int[m[K’
+   21 | void __print([01;36m[Klong x[m[K) { cerr << x; }
+      |              [01;36m[K~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:22:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(long long int)[m[K’
+   22 | void [01;36m[K__print[m[K(long long x) { cerr << x; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:22:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Klong long int[m[K’
+   22 | void __print([01;36m[Klong long x[m[K) { cerr << x; }
+      |              [01;36m[K~~~~~~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:23:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(unsigned int)[m[K’
+   23 | void [01;36m[K__print[m[K(unsigned x) { cerr << x; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:23:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Kunsigned int[m[K’
+   23 | void __print([01;36m[Kunsigned x[m[K) { cerr << x; }
+      |              [01;36m[K~~~~~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:24:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(long unsigned int)[m[K’
+   24 | void [01;36m[K__print[m[K(unsigned long x) { cerr << x; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:24:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Klong unsigned int[m[K’
+   24 | void __print([01;36m[Kunsigned long x[m[K) { cerr << x; }
+      |              [01;36m[K~~~~~~~~~~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:25:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(long long unsigned int)[m[K’
+   25 | void [01;36m[K__print[m[K(unsigned long long x) { cerr << x; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:25:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+   25 | void __print([01;36m[Kunsigned long long x[m[K) { cerr << x; }
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:26:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(float)[m[K’
+   26 | void [01;36m[K__print[m[K(float x) { cerr << x; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:26:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Kfloat[m[K’
+   26 | void __print([01;36m[Kfloat x[m[K) { cerr << x; }
+      |              [01;36m[K~~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:27:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(double)[m[K’
+   27 | void [01;36m[K__print[m[K(double x) { cerr << x; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:27:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Kdouble[m[K’
+   27 | void __print([01;36m[Kdouble x[m[K) { cerr << x; }
+      |              [01;36m[K~~~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:28:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(long double)[m[K’
+   28 | void [01;36m[K__print[m[K(long double x) { cerr << x; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:28:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Klong double[m[K’
+   28 | void __print([01;36m[Klong double x[m[K) { cerr << x; }
+      |              [01;36m[K~~~~~~~~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:29:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(char)[m[K’
+   29 | void [01;36m[K__print[m[K(char x) { cerr << '\'' << x << '\''; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:29:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Kchar[m[K’
+   29 | void __print([01;36m[Kchar x[m[K) { cerr << '\'' << x << '\''; }
+      |              [01;36m[K~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:30:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(const char*)[m[K’
+   30 | void [01;36m[K__print[m[K(const char* x) { cerr << '\"' << x << '\"'; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:30:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Kconst char*[m[K’
+   30 | void __print([01;36m[Kconst char* x[m[K) { cerr << '\"' << x << '\"'; }
+      |              [01;36m[K~~~~~~~~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:31:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(const string&)[m[K’
+   31 | void [01;36m[K__print[m[K(const string& x) { cerr << '\"' << x << '\"'; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:31:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   31 | void __print([01;36m[Kconst string& x[m[K) { cerr << '\"' << x << '\"'; }
+      |              [01;36m[K~~~~~~~~~~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:32:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid __print(bool)[m[K’
+   32 | void [01;36m[K__print[m[K(bool x) { cerr << (x ? "true" : "false"); }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:32:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<long long int>[m[K’ to ‘[01m[Kbool[m[K’
+   32 | void __print([01;36m[Kbool x[m[K) { cerr << (x ? "true" : "false"); }
+      |              [01;36m[K~~~~~^[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:35:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class V> void __print(const std::pair<_T1, _T2>&)[m[K’
+   35 | void [01;36m[K__print[m[K(const pair<T, V>& x) { cerr << '{'; __print(x.first); cerr << ','; __print(x.second); cerr << '}'; }
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:35:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/C - Not so Diverse/default.cpp:35:88:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<long long int>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+   35 | void __print(const pair<T, V>& x) { cerr << '{'; __print(x.first); cerr << ','; [01;36m[K__print(x.second)[m[K; cerr << '}'; }
+      |                                                                                 [01;36m[K~~~~~~~^~~~~~~~~~[m[K

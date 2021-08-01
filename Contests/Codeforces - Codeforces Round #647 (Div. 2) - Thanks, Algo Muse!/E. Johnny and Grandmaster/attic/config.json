@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #647 (Div. 2) - Thanks, Algo Muse!/E. Johnny and Grandmaster/default.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "E. Johnny and Grandmaster",
+      "group": "Codeforces - Codeforces Round #647 (Div. 2) - Thanks, Algo Muse!",
+      "url": "https://codeforces.com/contest/1362/problem/E",
+      "memoryLimit": 256,
+      "timeLimit": 2000
+    }
+  }
+}

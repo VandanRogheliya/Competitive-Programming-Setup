@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/AtCoder - AtCoder Beginner Contest 081/D - Non-decreasing/default.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "D - Non-decreasing",
+      "group": "AtCoder - AtCoder Beginner Contest 081",
+      "url": "https://atcoder.jp/contests/abc081/tasks/arc086_b",
+      "memoryLimit": 256,
+      "timeLimit": 2000
+    }
+  }
+}

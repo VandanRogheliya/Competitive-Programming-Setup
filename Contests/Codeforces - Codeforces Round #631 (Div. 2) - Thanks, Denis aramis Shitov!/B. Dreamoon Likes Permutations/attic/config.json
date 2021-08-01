@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #631 (Div. 2) - Thanks, Denis aramis Shitov!/B. Dreamoon Likes Permutations/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "B. Dreamoon Likes Permutations",
+      "group": "Codeforces - Codeforces Round #631 (Div. 2) - Thanks, Denis aramis Shitov!",
+      "url": "https://codeforces.com/contest/1330/problem/B",
+      "memoryLimit": 256,
+      "timeLimit": 2000
+    }
+  }
+}

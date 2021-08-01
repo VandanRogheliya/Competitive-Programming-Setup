@@ -1,0 +1,5 @@
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #647 (Div. 2) - Thanks, Algo Muse!/A. Johnny and Ancient Computer/default.cpp:[m[K In function ‘[01m[Kvoid solve()[m[K’:
+[01m[K/mnt/6f13bc05-0ba3-4a45-aa72-357a2c0037d4/Documents/Competitive Coding Space/Contests/Codeforces - Codeforces Round #647 (Div. 2) - Thanks, Algo Muse!/A. Johnny and Ancient Computer/default.cpp:77:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetbits[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetns[m[K’?
+   77 |   if ([01;31m[Ksetbits[m[K(tmp) > 1) {
+      |       [01;31m[K^~~~~~~[m[K
+      |       [32m[Ksetns[m[K
