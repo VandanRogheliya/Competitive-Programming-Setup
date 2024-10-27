@@ -136,9 +136,6 @@ ll n;
 
 void solve() {
     cin >> n;
-    if (n == 0) {
-        cout << "YES\n";
-    } else return;
 }
 
 int main() {
