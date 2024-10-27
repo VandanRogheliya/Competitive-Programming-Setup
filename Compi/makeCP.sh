@@ -7,6 +7,8 @@ then
   cp ../sol.cpp d.cpp
   cp ../sol.cpp e.cpp
   cp ../sol.cpp f.cpp
-else 
+  > input.txt
+  > out.txt
+else
   cp ../sol.cpp "$1".cpp
 fi

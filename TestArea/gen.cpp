@@ -32,10 +32,11 @@ long long rand(long long a, long long b) {
 int main(int argc, char* argv[]) {
     srand(atoi(argv[1])); // atoi(s) converts an array of chars to int
     long long n = rand(1, 5);
-    long long q = rand(1, 1);
+    // long long q = rand(1, 1);
     // long long q = rand(1, 100);
 
-    printf("%lld %lld 1\n", n, q);
+    // printf("%lld %lld 1\n", n, q);
+    printf("%lld\n", n);
 
     // set<long long> used;
     for (int i = 0; i < n; ++i) {
@@ -48,14 +49,14 @@ int main(int argc, char* argv[]) {
     }
     printf("\n");
 
-    for (int i = 0; i < q; i++) {
-        long long x;
-        x = rand(1, n);
-        printf("%lld ", x);
-
-        x = rand(1, n);
-        printf("%lld \n", x);
-
-    }
+    // for (int i = 0; i < q; i++) {
+    //     long long x;
+    //     x = rand(1, n);
+    //     printf("%lld ", x);
+    //
+    //     x = rand(1, n);
+    //     printf("%lld \n", x);
+    //
+    // }
     puts("");
 }
