@@ -1,3 +1,4 @@
+#include <cmath>
 #pragma GCC optimize("O3")
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize("unroll-loops")
@@ -132,10 +133,45 @@ void IO() {
 /*******************************************************/
 #define MX 100000  // TODO:
 
-ll n;
+double n;
+
+double dist(pii p1, pii p2) {
+    double d1 = p1.F - p2.F;
+    double d2 = p1.S - p2.S;
+    d1 *= d1;
+    d2 *= d2;
+    d1 += d2;
+    return sqrt(d1);
+}
+
+double fact(double num) {
+    double ans = 1;
+    while (num) {
+        ans *= num;
+        num--;
+    }
+    return ans;
+}
 
 void solve() {
     cin >> n;
+    vector<pii> vp(n);
+    rep(i, 0, n) {
+        pii p;
+        cin >> p.F >> p.S;
+        vp[i] = p;
+    }
+    double sum = 0;
+    double cnt = 0;
+    rep(i, 0, n) {
+        rep(j, i + 1, n) {
+            sum += dist(vp[i], vp[j]);
+            cnt++;
+        }
+    }
+    double tmp = n-1;
+    double ans = tmp * sum / cnt;
+    cout << ps(ans, 10) << endl;
 }
 
 int main() {
