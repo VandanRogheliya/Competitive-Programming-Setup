@@ -132,11 +132,10 @@ void IO() {
 /*******************************************************/
 #define MX 100000  // TODO:
 
-ll r;
+ll n;
 
 void solve() {
-    cin >> r;
-    cout << r*r << endl;;
+    cin >> n;
 }
 
 int main() {

@@ -136,20 +136,6 @@ ll n;
 
 void solve() {
     cin >> n;
-    string s;
-    cin >> s;
-    if (n & 1) {
-        cout << "No\n";
-        return;
-    }
-    ll lim = n / 2;
-    rep(i, 0, lim) {
-        if (s[i] != s[i + lim]) {
-            cout << "No\n";
-            return;
-        }
-    }
-    cout << "Yes\n";
 }
 
 int main() {
