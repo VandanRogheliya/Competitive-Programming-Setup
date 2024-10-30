@@ -4,7 +4,6 @@
 #pragma GCC optimize("no-stack-protector")
 #pragma GCC optimize("fast-math")
 #pragma GCC optimize("trapv")
-#pragma GCC target("sse4")
 
 #include <bits/stdc++.h>
 using namespace std;
