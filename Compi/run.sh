@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
 fi
 
 # Compile the provided C++ file using C++17 standard and output as 'out'
-g++ --std=c++17 "$1" -o out
+g++-14 --std=c++20 "$1" -o out
 
 # Check if compilation was successful
 if [ $? -eq 0 ]; then
